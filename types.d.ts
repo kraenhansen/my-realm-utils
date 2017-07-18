@@ -1,3 +1,1 @@
-declare module "node-random-name" {
-  export default function randomName(): string;
-}
+declare module "node-random-name";

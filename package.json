@@ -11,9 +11,7 @@
   "author": "Kræn Hansen <kraen.hansen@realm.io>",
   "license": "ISC",
   "devDependencies": {
-    "@types/dotenv": "^4.0.0",
     "@types/node": "^8.0.14",
-    "dotenv": "^4.0.0",
     "node-random-name": "^1.0.1",
     "realm": "^1.10.0",
     "ts-node": "^3.2.0",
