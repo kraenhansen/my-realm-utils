@@ -1,0 +1,24 @@
+{
+  "name": "my-realm-utils",
+  "version": "0.1.0",
+  "description": "A couple of utility scripts I can use when using Realm",
+  "main": "index.js",
+  "scripts": {
+    "many-objects": "ts-node ./many-objects/index.ts",
+    "many-users": "ts-node ./many-users/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kræn Hansen <kraen.hansen@realm.io>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/dotenv": "^4.0.0",
+    "@types/node": "^8.0.14",
+    "dotenv": "^4.0.0",
+    "node-random-name": "^1.0.1",
+    "realm": "^1.10.0",
+    "ts-node": "^3.2.0",
+    "tslint": "^5.5.0",
+    "typescript": "^2.4.1"
+  },
+  "dependencies": {}
+}
