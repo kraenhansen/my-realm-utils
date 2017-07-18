@@ -2,8 +2,8 @@ import getName = require("node-random-name");
 import * as path from "path";
 import * as Realm from "realm";
 
-const REALM_HOST = "localhost";
-const REALM_PORT = 9080;
+const REALM_HOST = process.env.REALM_HOST || "localhost";
+const REALM_PORT = process.env.REALM_PORT || 9080;
 const REALM_SYNC_URL = `http://${REALM_HOST}:${REALM_PORT}`;
 
 const count = parseInt(process.argv.pop(), 10);
