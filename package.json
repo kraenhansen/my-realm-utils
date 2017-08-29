@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "many-objects": "ts-node ./many-objects/index.ts",
+    "many-realms-by-admin": "ts-node ./many-realms-by-admin/index.ts",
     "many-users": "ts-node ./many-users/index.ts",
+    "nested-path": "ts-node ./nested-path/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Kræn Hansen <kraen.hansen@realm.io>",
